@@ -179,3 +179,180 @@ h1{
 .realsie{
     background-color: #f441a5;
 }
+
+
+
+@media(max-width:560px){
+    .div1{
+        border: 3px black solid;
+        width: 280px;
+        height: 150px;
+        margin-left: 50px;
+        padding-left: 15px;
+        margin-top: 30px;
+    }
+    h1{
+        margin-left: 10px;
+    }
+
+    .input_aj {
+        margin-left: -5px;
+        color: black;
+        font-size: 1.15rem;
+        width: 150px;
+        padding: .3rem 1rem;
+        border: 2px solid transparent;
+        outline: none;
+        border-radius: 1.5rem;
+        background-color:#96d6f3 ;
+        letter-spacing: 1px;
+    }
+    
+    .input_aj:hover,
+    .input_aj:focus{
+        color: black;
+        border: 2px solid #03a9f4;
+        background-color: transparent;
+    }
+
+    .buttAjo{
+   
+        position: absolute;
+        border: none;
+        width: 5.3em;
+        height: 2em;
+        line-height: 2em;
+        text-align: center;
+        background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size: 300%;
+        border-radius: 30px;
+        text-transform: uppercase;
+        cursor: pointer;
+        z-index: 1;
+        margin-left: 15px;
+    }
+    .buttAjo:hover{
+        animation:animation 8s linear infinite;
+        border: none;
+    }
+    @keyframes animation{
+        0%{background-position: 0%;}
+        100%{background-position: 400%;}
+    }
+    .buttAjo:before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        z-index: -1;
+        background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+        background-size: 400%;
+        border-radius: 35px;
+        transition: 1s;
+    }
+    .buttAjo:hover::before{
+        filter: blur(20px);
+    }
+    
+    .ispa {
+        margin-top: 20px;
+        list-style: none;
+        color: black;
+        font-size: 1.15rem;
+        width: 70px;
+        padding: .3rem 1rem;
+        border: 2px solid transparent;
+        outline: none;
+        border-radius: 1.5rem;
+        background-color:#f195c9 ;
+        letter-spacing: 1px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .border{
+        border: 3px solid black;
+        margin-top: 10px;
+        margin-left: 50px;
+        width: 295px;
+    }
+
+    .suppe{
+        position: absolute;
+        border: none;
+        width: 6.2em;
+        height: 1.75em;
+        text-align: center;
+        background: linear-gradient(90deg,#03a9f4,#96d6f3);
+        border-radius: 30px;
+    }
+    .suppe:hover{
+        animation:animation 8s linear infinite;
+        border: none;
+    }
+    @keyframes animation{
+        0%{background-position: 0%;}
+        100%{background-position: 400%;}
+    }
+    .suppe:before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        z-index: -1;
+        background: linear-gradient(90deg,#03a9f4,#96d6f3);
+        background-size: 400%;
+        border-radius: 35px;
+        transition: 1s;
+    }
+    .suppe:hover::before{
+        filter: blur(20px);
+    }
+
+    .done{
+        position: absolute;
+        border: none;
+        width: 4em;
+        height: 2.3em;
+        line-height: 1em;
+        text-align: center;
+        background: linear-gradient(90deg,#03a9f4,#96d6f3);
+        background-size: 300%;
+        border-radius: 40px;
+        text-transform: uppercase;
+        cursor: pointer;
+        z-index: 1;
+        margin-left:50px;
+    }
+    .done:hover{
+        animation:animation 8s linear infinite;
+        border: none;
+    }
+    @keyframes animation{
+        0%{background-position: 0%;}
+        100%{background-position: 400%;}
+    }
+    .done:before{
+        content: "";
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        right: -5px;
+        bottom: -5px;
+        z-index: -1;
+        background: linear-gradient(90deg#03a9f4,#96d6f3);
+        background-size: 400%;
+        border-radius: 35px;
+        transition: 1s;
+    }
+    .done:hover::before{
+        filter: blur(20px);
+    }
+    .realsie{
+        background-color: #f441a5;
+    }
+    
+}
